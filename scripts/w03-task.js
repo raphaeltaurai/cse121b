@@ -42,15 +42,14 @@ document.querySelector('#multiplyNumbers').addEventListener('click', multiplyNum
 
 /* Open Function Use - Divide Numbers */
 
-const divide = (number1,number2) => number1/number2;
-
-const divideNumbers = () =>{
-    dividend = Number(document.querySelector('#dividend').value);
-    divisor = Number(document.querySelector('#divisor').value);
-
-    document.querySelector('quotient').value = divide(dividend,divisor)
-}
-document.querySelector('#divideNumbers').addEventListener('click', divideNumbers);
+function divide() {
+    var dividend = parseFloat(document.getElementById("dividend").value);
+    var divisor = parseFloat(document.getElementById("divisor").value);
+    var quotient = dividend / divisor;
+    document.getElementById("quotient").value = quotient;
+  }
+  
+  document.getElementById("divideNumbers").addEventListener("click", divide);
 
 /* Decision Structure */
 
