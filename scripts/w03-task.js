@@ -48,7 +48,7 @@ const divideNumbers = () =>{
     dividend = Number(document.querySelector('#dividend').value);
     divisor = Number(document.querySelector('#divisor').value);
 
-    document.querySelector('#qoutient').value = divide(dividend,divisor)
+    document.querySelector('quotient').value = divide(dividend,divisor)
 }
 document.querySelector('#divideNumbers').addEventListener('click', divideNumbers);
 
