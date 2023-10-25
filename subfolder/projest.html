@@ -10,8 +10,9 @@
 <body>
     <h1>Calculator</h1>
 
-    <label id="result"></label><br>
-    <input id="math">
+    <label id="result" aria-live="assertive" aria-atomic="true"></label><br>
+    <label for="math">Enter a math expression:</label>
+    <input id="math" aria-labelledby="mathLabel">
     <button id="calculate">=</button>
 
     <script src="scripts/projects.js"></script>
