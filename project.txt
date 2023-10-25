@@ -1,0 +1,7 @@
+Raphael Shawn Taurai
+
+Project proposal:
+The final project aims to develop an application that provides articles on data structures and algorithms.
+The application will allow users to filter and select specific topics of interest, with the default 
+display showing all the available articles. The project will be implemented using JavaScript and will 
+consume external data in JSON format from either Algorithmia, LeetCode or Data.gov.
