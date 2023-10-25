@@ -1,0 +1,20 @@
+{
+    "articles": [
+      {
+        "title": "Introduction to Arrays",
+        "content": "This article provides an introduction to arrays and their usage.",
+        "topic": "arrays"
+      },
+      {
+        "title": "Singly Linked Lists",
+        "content": "Learn about singly linked lists and how to implement them.",
+        "topic": "linked-lists"
+      },
+      {
+        "title": "Binary Search Trees",
+        "content": "Explore binary search trees and their operations.",
+        "topic": "trees"
+      }
+      
+    ]
+  }
