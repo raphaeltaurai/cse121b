@@ -2,18 +2,33 @@
     "articles": [
       {
         "title": "Introduction to Arrays",
-        "content": "This article provides an introduction to arrays and their usage.",
+        "content": "Arrays are fundamental data structures used to store a collection of elements of the same type. They provide a contiguous block of memory where each element can be accessed using an index. The index starts from 0 for the first element, 1 for the second element, and so on. Arrays are versatile and widely used due to their simplicity and efficiency.",
         "topic": "arrays"
       },
       {
         "title": "Singly Linked Lists",
-        "content": "Learn about singly linked lists and how to implement them.",
+        "content": "A singly linked list is a data structure that consists of a sequence of nodes, where each node contains a value and a reference to the next node in the list. Unlike arrays, linked lists do not require contiguous memory allocation, allowing for dynamic memory allocation. Linked lists are useful when the size of the data is unknown or can change dynamically. However, accessing elements in a linked list requires traversing the list from the head node.",
         "topic": "linked-lists"
       },
       {
         "title": "Binary Search Trees",
-        "content": "Explore binary search trees and their operations.",
+        "content": "Binary search trees (BSTs) are hierarchical data structures that store elements in a sorted manner. Each node in a BST has a key and two child nodes: a left child with a smaller key and a right child with a larger key. This property allows for efficient searching, insertion, and deletion operations. Binary search trees are commonly used in search algorithms and provide an efficient way to maintain a sorted collection of elements.",
         "topic": "trees"
+      },
+      {
+        "title":"Hash Tables",
+        "content": "Hash tables, also known as hash maps, are data structures that store key-value pairs. They use a hash function to map keys to specific positions in an array called a hash table. This allows for constant-time average-case operations, such as insertion, deletion, and retrieval. Hash tables are widely used in various applications, including database indexing, caching, and implementing associative arrays.",
+        "topic": "#tables"
+      },
+      {
+        "title":"Graphs",
+        "content": "Graphs are data structures that represent a collection of interconnected nodes, where each node can have multiple connections or edges to other nodes. Graphs are used to model relationships between objects and solve problems related to networks, social networks, routing algorithms, and more. Graphs can be classified as directed or undirected, weighted or unweighted, and can have cycles or be acyclic.",
+        "topic": "graphs"
+      },
+      {
+        "title":"Heap Data Structure",
+        "content": "A heap is a complete binary tree-based data structure that satisfies the heap property. In a min-heap, for example, the value of each node is smaller than or equal to the values of its children. Heaps are commonly used to implement priority queues, where the element with the highest priority is always at the root of the heap. Heap-based algorithms like heap sort and Dijkstra's algorithm are widely used in various applications.",
+        "topic": "heap"
       }
       
     ]

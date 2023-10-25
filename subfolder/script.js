@@ -1,4 +1,4 @@
-import { getArticles } from "../subfolder/scripts/api.js";
+import { getArticles } from "./api.js";
 
 document.addEventListener("DOMContentLoaded", () => {
   const topicFilter = document.getElementById("topic-filter");
